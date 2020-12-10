@@ -57,6 +57,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\KimlerBurada.cs" />
+    <Compile Include="Assets\Scripts\HareketKontrol.cs" />
+    <Compile Include="Assets\Learning\Learning.cs" />
+    <Compile Include="Assets\Scripts\PatlamaYokEdici.cs" />
+    <Compile Include="Assets\Scripts\GeriSayimTest.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
+    <Compile Include="Assets\Scripts\YokEdici.cs" />
+    <Compile Include="Assets\Scripts\GeriSayimSayaci.cs" />
+    <Compile Include="Assets\Scripts\InputKontrol.cs" />
+    <Compile Include="Assets\Scripts\EkranHesaplayicisi.cs" />
+    <Compile Include="Assets\Scripts\Tetikleyici.cs" />
+    <Compile Include="Assets\Scripts\UzayGemisiKontrol.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
