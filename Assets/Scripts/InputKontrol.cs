@@ -7,6 +7,8 @@ public class InputKontrol : MonoBehaviour
     [SerializeField]
     GameObject asteroidPrefab;
 
+    List<GameObject> asteroidList = new List<GameObject>();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,22 +26,30 @@ public class InputKontrol : MonoBehaviour
             position.z = -Camera.main.transform.position.z;
             position = Camera.main.ScreenToWorldPoint(position);  // Ekran piksellerini oyun koordinatlarına dönüştürür
 
-            Instantiate(asteroidPrefab, position, Quaternion.identity);  // Astreroid spawnla
+            for (int i = 0; i < 20; i++)
+            {
+                asteroidList.Add(Instantiate(asteroidPrefab, position, Quaternion.identity));  // Astreroid spawnla
+            }
         }
 
-        if (Input.GetMouseButton(0))
+        //if (Input.GetMouseButton(0))
+        //{
+        //    Debug.Log("Pressed left click.");
+        //}
+
+        if (Input.GetMouseButtonDown(1))
         {
-            Debug.Log("Pressed left click.");
+            foreach (GameObject asteroid in asteroidList)
+            {
+                Destroy(asteroid);  // Sağ tıkta tüm asteroidleri sil
+            }
+
+            asteroidList.Clear();  // Tüm listeyi de temizle
         }
 
-        if (Input.GetMouseButton(1))
-        {
-            Debug.Log("Pressed right click.");
-        }
-
-        if (Input.GetMouseButton(2))
-        {
-            Debug.Log("Pressed middle click.");
-        }
+        //if (Input.GetMouseButton(2))
+        //{
+        //    Debug.Log("Pressed middle click.");
+        //}
     }
 }

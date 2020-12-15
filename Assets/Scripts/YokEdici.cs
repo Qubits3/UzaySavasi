@@ -13,8 +13,6 @@ public class YokEdici : MonoBehaviour
     void Start()
     {
         yokEdiciGeriSayım = gameObject.AddComponent<GeriSayimSayaci>();  //Bu scripti kullanan GameObjecte GeriSayımSayacı adlı scripti ekle
-        yokEdiciGeriSayım.ToplamSure = Random.Range(1, 20);
-        yokEdiciGeriSayım.Calistir();
     }
 
     // Update is called once per frame
@@ -25,5 +23,11 @@ public class YokEdici : MonoBehaviour
             Instantiate(patlamaPrefab, gameObject.transform.position, Quaternion.identity);  // Patlama efektini spawnla
             Destroy(gameObject);  // Bu scripti kullanan objeyi yok et
         }
+    }
+
+    public void asteroidYokEdici(int sure)
+    {
+        yokEdiciGeriSayım.ToplamSure = sure;
+        yokEdiciGeriSayım.Calistir();  // Geri Sayım Sayacından çalıştır
     }
 }

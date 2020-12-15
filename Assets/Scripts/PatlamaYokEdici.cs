@@ -7,10 +7,15 @@ public class PatlamaYokEdici : MonoBehaviour
 
     GeriSayimSayaci geriSayimSayaci;
 
+    SiraliYokEdici siraliYokEdici;
+
     // Start is called before the first frame update
     void Start()
     {
-        geriSayimSayaci = gameObject.AddComponent<GeriSayimSayaci>();  //Bu scripti kullanan GameObjecte GeriSayımSayacı adlı scripti ekle
+        geriSayimSayaci = gameObject.AddComponent<GeriSayimSayaci>();  // Bu scripti kullanan GameObjecte GeriSayımSayacı adlı scripti ekle
+
+        siraliYokEdici = Camera.main.GetComponent<SiraliYokEdici>();  // Camera objesindeki SiraliYokEdiciScriptini çağır
+        
         geriSayimSayaci.ToplamSure = 1;
         geriSayimSayaci.Calistir();
     }
@@ -20,6 +25,7 @@ public class PatlamaYokEdici : MonoBehaviour
     {
         if (geriSayimSayaci.BittiMi)
         {
+            siraliYokEdici.hedefiYokEt();
             Destroy(gameObject);  // Bu scripti kullanan GameObjecti yok et
         }
     }

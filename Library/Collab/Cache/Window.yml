@@ -14,19 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Prefabs/Asteroid.prefab
     - Assets/Prefabs/UzayGemisi.prefab
+    - Assets/Prefabs/Yildiz.prefab
+    - Assets/Prefabs/Yildiz.prefab.meta
     - Assets/Scenes/Main.unity
-    - Assets/Scripts/EkranHesaplayicisi.cs
-    - Assets/Scripts/EkranHesaplayicisi.cs.meta
+    - Assets/Scripts/GeriSayimTest.cs
     - Assets/Scripts/HareketKontrol.cs
     - Assets/Scripts/InputKontrol.cs
-    - Assets/Scripts/InputKontrol.cs.meta
-    - Assets/Scripts/Tetikleyici.cs
-    - Assets/Scripts/Tetikleyici.cs.meta
+    - Assets/Scripts/PatlamaYokEdici.cs
+    - Assets/Scripts/SiraliYokEdici.cs
+    - Assets/Scripts/SiraliYokEdici.cs.meta
+    - Assets/Scripts/Spawner.cs
+    - Assets/Scripts/Toplayici.cs
+    - Assets/Scripts/Toplayici.cs.meta
     - Assets/Scripts/UzayGemisiKontrol.cs
-    - Assets/Scripts/UzayGemisiKontrol.cs.meta
+    - Assets/Scripts/YokEdici.cs
+    - Assets/Sprites/Yildiz.png
+    - Assets/Sprites/Yildiz.png.meta
     - 
-    m_Values: 010101010101010101010101
+    m_Values: 00000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

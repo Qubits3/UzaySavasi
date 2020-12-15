@@ -10,8 +10,8 @@ public class HareketKontrol : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Uzay gemisini hareket ettir
-        //GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
+        //Oyun objesini rastgele bir kuvvetle hareket ettir
+        GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-5, 5), Random.Range(-5, 5)), ForceMode2D.Impulse);
 
         BoxCollider2D collider = GetComponent<BoxCollider2D>();  // Bu scripti kullanan GameObjectin BoxCollider2D componentına eriş
 
@@ -28,13 +28,13 @@ public class HareketKontrol : MonoBehaviour
     void Update()
     {
         //Asteroid mouse imlecini takip etsin
-        Vector3 positon = Input.mousePosition;
-        positon.z = -Camera.main.transform.position.z;
-        positon = Camera.main.ScreenToWorldPoint(positon);
+        //Vector3 positon = Input.mousePosition;
+        //positon.z = -Camera.main.transform.position.z;
+        //positon = Camera.main.ScreenToWorldPoint(positon);
 
-        transform.position = positon;
+        //transform.position = positon;
         
-        EkrandaKal();
+        //EkrandaKal();
     }
 
     /// <summary>
