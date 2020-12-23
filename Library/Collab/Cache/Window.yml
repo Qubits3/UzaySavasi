@@ -14,26 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Prefabs/Asteroid.prefab
+    - Assets/Learning/GeriSayimSayaci.cs
+    - Assets/Learning/GeriSayimSayaci.cs.meta
+    - Assets/Learning/GeriSayimTest.cs
+    - Assets/Learning/GeriSayimTest.cs.meta
+    - Assets/Learning/HareketKontrol.cs
+    - Assets/Learning/HareketKontrol.cs.meta
+    - Assets/Learning/InputKontrol.cs
+    - Assets/Learning/InputKontrol.cs.meta
+    - Assets/Learning/KimlerBurada.cs
+    - Assets/Learning/KimlerBurada.cs.meta
+    - Assets/Learning/Learning.cs
+    - Assets/Learning/PatlamaYokEdici.cs
+    - Assets/Learning/PatlamaYokEdici.cs.meta
+    - Assets/Learning/SiraliYokEdici.cs
+    - Assets/Learning/SiraliYokEdici.cs.meta
+    - Assets/Learning/Spawner.cs
+    - Assets/Learning/Spawner.cs.meta
+    - Assets/Learning/Toplayici.cs
+    - Assets/Learning/Toplayici.cs.meta
+    - Assets/Learning/UzayGemisi.cs
+    - Assets/Learning/UzayGemisi.cs.meta
+    - Assets/Learning/UzayGemisiKontrol.cs
+    - Assets/Learning/UzayGemisiKontrol.cs.meta
+    - Assets/Learning/YokEdici.cs
+    - Assets/Learning/YokEdici.cs.meta
     - Assets/Prefabs/UzayGemisi.prefab
-    - Assets/Prefabs/Yildiz.prefab
-    - Assets/Prefabs/Yildiz.prefab.meta
     - Assets/Scenes/Main.unity
-    - Assets/Scripts/GeriSayimTest.cs
-    - Assets/Scripts/HareketKontrol.cs
-    - Assets/Scripts/InputKontrol.cs
-    - Assets/Scripts/PatlamaYokEdici.cs
-    - Assets/Scripts/SiraliYokEdici.cs
-    - Assets/Scripts/SiraliYokEdici.cs.meta
-    - Assets/Scripts/Spawner.cs
-    - Assets/Scripts/Toplayici.cs
-    - Assets/Scripts/Toplayici.cs.meta
-    - Assets/Scripts/UzayGemisiKontrol.cs
-    - Assets/Scripts/YokEdici.cs
-    - Assets/Sprites/Yildiz.png
-    - Assets/Sprites/Yildiz.png.meta
+    - Assets/Scripts/GemiKontrol.cs
+    - Assets/Scripts/GemiKontrol.cs.meta
+    - Assets/Scripts/OyunKontrol.cs
+    - Assets/Scripts/OyunKontrol.cs.meta
     - 
-    m_Values: 00000000000000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

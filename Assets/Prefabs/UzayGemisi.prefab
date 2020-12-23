@@ -12,9 +12,7 @@ GameObject:
   - component: {fileID: 5658975653569965387}
   - component: {fileID: 5658975653569965385}
   - component: {fileID: 5658975653569965399}
-  - component: {fileID: 5658975653569965398}
-  - component: {fileID: 4092041888273564800}
-  - component: {fileID: 4343613865016226569}
+  - component: {fileID: 509619467463535016}
   m_Layer: 0
   m_Name: UzayGemisi
   m_TagString: Player
@@ -134,39 +132,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.56, y: 2.24441}
   m_EdgeRadius: 0
---- !u!114 &5658975653569965398
+--- !u!114 &509619467463535016
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5658975653569965386}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77e886c00d281f34d98d1d8c984c84cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4092041888273564800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5658975653569965386}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86bb4bd4b616832498d969a3f9298553, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4343613865016226569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5658975653569965386}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e1b66738c86b8645b43d6a18464abfa, type: 3}
+  m_Script: {fileID: 11500000, guid: a2a9c0a56a42b1d49ad6923f52f04bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

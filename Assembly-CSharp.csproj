@@ -56,20 +56,23 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\KimlerBurada.cs" />
-    <Compile Include="Assets\Scripts\HareketKontrol.cs" />
-    <Compile Include="Assets\Scripts\UzayGemisiKontrol.cs" />
-    <Compile Include="Assets\Scripts\InputKontrol.cs" />
+    <Compile Include="Assets\Learning\KimlerBurada.cs" />
+    <Compile Include="Assets\Learning\HareketKontrol.cs" />
+    <Compile Include="Assets\Learning\UzayGemisiKontrol.cs" />
+    <Compile Include="Assets\Learning\InputKontrol.cs" />
     <Compile Include="Assets\Learning\Learning.cs" />
-    <Compile Include="Assets\Scripts\PatlamaYokEdici.cs" />
-    <Compile Include="Assets\Scripts\GeriSayimTest.cs" />
+    <Compile Include="Assets\Learning\PatlamaYokEdici.cs" />
+    <Compile Include="Assets\Learning\SiraliYokEdici.cs" />
+    <Compile Include="Assets\Learning\GeriSayimTest.cs" />
     <Compile Include="Assets\Scripts\EkranHesaplayicisi.cs" />
-    <Compile Include="Assets\Scripts\Spawner.cs" />
+    <Compile Include="Assets\Learning\Spawner.cs" />
+    <Compile Include="Assets\Learning\Toplayici.cs" />
     <Compile Include="Assets\Scripts\Tetikleyici.cs" />
-    <Compile Include="Assets\Scripts\YokEdici.cs" />
-    <Compile Include="Assets\Scripts\GeriSayimSayaci.cs" />
-    <Compile Include="Assets\Scripts\Toplayici.cs" />
-    <Compile Include="Assets\Scripts\SiraliYokEdici.cs" />
+    <Compile Include="Assets\Learning\YokEdici.cs" />
+    <Compile Include="Assets\Learning\GeriSayimSayaci.cs" />
+    <Compile Include="Assets\Learning\UzayGemisi.cs" />
+    <Compile Include="Assets\Scripts\GemiKontrol.cs" />
+    <Compile Include="Assets\Scripts\OyunKontrol.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
