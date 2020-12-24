@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5658975653569965385}
   - component: {fileID: 5658975653569965399}
   - component: {fileID: 509619467463535016}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: UzayGemisi
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -144,3 +144,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a9c0a56a42b1d49ad6923f52f04bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kursunPrefab: {fileID: 246971714029725189, guid: c78fffb820ae9db48beba305b0673f43, type: 3}
+  patlamaPrefab: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}

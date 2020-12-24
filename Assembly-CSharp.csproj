@@ -61,18 +61,23 @@
     <Compile Include="Assets\Learning\UzayGemisiKontrol.cs" />
     <Compile Include="Assets\Learning\InputKontrol.cs" />
     <Compile Include="Assets\Learning\Learning.cs" />
-    <Compile Include="Assets\Learning\PatlamaYokEdici.cs" />
+    <Compile Include="Assets\Scripts\PatlamaYokEdici.cs" />
+    <Compile Include="Assets\Scripts\GemiKontrol.cs" />
     <Compile Include="Assets\Learning\SiraliYokEdici.cs" />
     <Compile Include="Assets\Learning\GeriSayimTest.cs" />
     <Compile Include="Assets\Scripts\EkranHesaplayicisi.cs" />
     <Compile Include="Assets\Learning\Spawner.cs" />
     <Compile Include="Assets\Learning\Toplayici.cs" />
     <Compile Include="Assets\Scripts\Tetikleyici.cs" />
-    <Compile Include="Assets\Learning\YokEdici.cs" />
-    <Compile Include="Assets\Learning\GeriSayimSayaci.cs" />
     <Compile Include="Assets\Learning\UzayGemisi.cs" />
-    <Compile Include="Assets\Scripts\GemiKontrol.cs" />
+    <Compile Include="Assets\Learning\YokEdici.cs" />
+    <Compile Include="Assets\Scripts\GeriSayimSayaci.cs" />
     <Compile Include="Assets\Scripts\OyunKontrol.cs" />
+    <Compile Include="Assets\Scripts\Asteroid.cs" />
+    <Compile Include="Assets\Scripts\Kursun.cs" />
+    <Compile Include="Assets\Scripts\Arkaplan.cs" />
+    <Compile Include="Assets\Scripts\UIKontrol.cs" />
+    <Compile Include="Assets\Scripts\SesKontrol.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

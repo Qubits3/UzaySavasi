@@ -4,12 +4,20 @@ using UnityEngine;
 
 public class GemiKontrol : MonoBehaviour
 {
-    const float hareketGucu = 10;
+
+    [SerializeField]
+    GameObject kursunPrefab = default;
+    const float hareketGucu = 5;
+
+    [SerializeField]
+    GameObject patlamaPrefab = default;
+
+    OyunKontrol oyunKontrol;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        oyunKontrol = Camera.main.GetComponent<OyunKontrol>();
     }
 
     // Update is called once per frame
@@ -31,5 +39,26 @@ public class GemiKontrol : MonoBehaviour
         }
 
         transform.position = position;  // Yeni posizyonu bu scipti kullanan GameObjectin pozisyonuna ata
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            GameObject.FindGameObjectWithTag("Audio").GetComponent<SesKontrol>().Ates();
+
+            Vector3 kursunPozisyon = gameObject.transform.position;
+            kursunPozisyon.y += 1;
+            Instantiate(kursunPrefab, kursunPozisyon, Quaternion.identity);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Asteroid")
+        {
+            GameObject.FindGameObjectWithTag("Audio").GetComponent<SesKontrol>().GemiPatlama();
+
+            oyunKontrol.OyunuBitir();
+            Instantiate(patlamaPrefab, gameObject.transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 }

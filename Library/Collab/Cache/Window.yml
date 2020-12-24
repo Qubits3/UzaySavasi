@@ -14,39 +14,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Learning/GeriSayimSayaci.cs
-    - Assets/Learning/GeriSayimSayaci.cs.meta
-    - Assets/Learning/GeriSayimTest.cs
-    - Assets/Learning/GeriSayimTest.cs.meta
-    - Assets/Learning/HareketKontrol.cs
-    - Assets/Learning/HareketKontrol.cs.meta
-    - Assets/Learning/InputKontrol.cs
-    - Assets/Learning/InputKontrol.cs.meta
-    - Assets/Learning/KimlerBurada.cs
-    - Assets/Learning/KimlerBurada.cs.meta
-    - Assets/Learning/Learning.cs
-    - Assets/Learning/PatlamaYokEdici.cs
-    - Assets/Learning/PatlamaYokEdici.cs.meta
-    - Assets/Learning/SiraliYokEdici.cs
-    - Assets/Learning/SiraliYokEdici.cs.meta
-    - Assets/Learning/Spawner.cs
-    - Assets/Learning/Spawner.cs.meta
-    - Assets/Learning/Toplayici.cs
-    - Assets/Learning/Toplayici.cs.meta
-    - Assets/Learning/UzayGemisi.cs
-    - Assets/Learning/UzayGemisi.cs.meta
-    - Assets/Learning/UzayGemisiKontrol.cs
-    - Assets/Learning/UzayGemisiKontrol.cs.meta
-    - Assets/Learning/YokEdici.cs
-    - Assets/Learning/YokEdici.cs.meta
+    - Assets/Audio.meta
+    - Assets/Audio/Arkaplan.mp3
+    - Assets/Audio/Arkaplan.mp3.meta
+    - Assets/Audio/AsteroidPatlama.wav
+    - Assets/Audio/AsteroidPatlama.wav.meta
+    - Assets/Audio/Ates.aiff
+    - Assets/Audio/Ates.aiff.meta
+    - Assets/Audio/GemiPatlama.wav
+    - Assets/Audio/GemiPatlama.wav.meta
+    - Assets/Font.meta
+    - Assets/Font/_uriosahalf.ttf
+    - Assets/Font/_uriosahalf.ttf.meta
+    - Assets/Materials/Arkaplan.mat
+    - Assets/Materials/Arkaplan.mat.meta
+    - Assets/Prefabs/Asteroid1.prefab
+    - Assets/Prefabs/Asteroid1.prefab.meta
+    - Assets/Prefabs/Asteroid2.prefab
+    - Assets/Prefabs/Asteroid2.prefab.meta
+    - Assets/Prefabs/Asteroid3.prefab
+    - Assets/Prefabs/Asteroid3.prefab.meta
+    - Assets/Prefabs/Kursun.prefab
+    - Assets/Prefabs/Kursun.prefab.meta
     - Assets/Prefabs/UzayGemisi.prefab
     - Assets/Scenes/Main.unity
+    - Assets/Scripts/Arkaplan.cs
+    - Assets/Scripts/Arkaplan.cs.meta
+    - Assets/Scripts/Asteroid.cs
+    - Assets/Scripts/Asteroid.cs.meta
     - Assets/Scripts/GemiKontrol.cs
-    - Assets/Scripts/GemiKontrol.cs.meta
+    - Assets/Scripts/GeriSayimSayaci.cs
+    - Assets/Scripts/GeriSayimSayaci.cs.meta
+    - Assets/Scripts/Kursun.cs
+    - Assets/Scripts/Kursun.cs.meta
     - Assets/Scripts/OyunKontrol.cs
-    - Assets/Scripts/OyunKontrol.cs.meta
+    - Assets/Scripts/PatlamaYokEdici.cs
+    - Assets/Scripts/PatlamaYokEdici.cs.meta
+    - Assets/Scripts/SesKontrol.cs
+    - Assets/Scripts/SesKontrol.cs.meta
+    - Assets/Scripts/UIKontrol.cs
+    - Assets/Scripts/UIKontrol.cs.meta
+    - Assets/Sprites/Asteroid2.png
+    - Assets/Sprites/Asteroid2.png.meta
+    - Assets/Sprites/Asteroid3.png
+    - Assets/Sprites/Asteroid3.png.meta
+    - Assets/Sprites/Kursun.png
+    - Assets/Sprites/Kursun.png.meta
+    - Assets/Textures.meta
+    - Assets/Textures/Arkaplan.png
+    - Assets/Textures/Arkaplan.png.meta
+    - Assets/UI.meta
+    - Assets/UI/PlayButon.png
+    - Assets/UI/PlayButon.png.meta
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 0000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
